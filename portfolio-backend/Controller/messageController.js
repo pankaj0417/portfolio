@@ -9,11 +9,10 @@ export const sendMessage = async (req, res) => {
     const myemail = process.env.MYEMAIL_SERVICE;
 
     await Message.create({ name, email, msg });
-    
     await sendEmail(
       myemail,
       `New message from ${name}`,
-      `Sender: ${email}\n\nMessage:\n${msg}`
+      `Sender: ${email}\nMessage:${msg}\nsender Name: ${name}`
     );
 
     res.status(200).json({ message: "message sent successfully." });
