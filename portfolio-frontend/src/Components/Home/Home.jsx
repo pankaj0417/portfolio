@@ -6,12 +6,12 @@ const Home = () => {
   return (
     <div id="home" className="flex w-full flex-col md:flex-row justify-between items-start p-10 md:pt-20 ">
       <div className="w-full text-center md:text-left pt-20 md:w-2/3 md:pt-20 1">
-        <div className="text-4xl font-bold whitespace-pre text-blue-500">
+        <div className="text-3xl md:text-4xl font-bold whitespace-pre text-blue-500">
           <Typewrite
             options={{
               strings: [
                 "Software Engineer",
-                "MERN Stack Developer",
+                "MERN Developer",
                 "Programmer",
                 "Tech Enthusiast",
               ],
@@ -35,7 +35,7 @@ const Home = () => {
         >
           Hire me
         </button>
-        <a href="../../public/resume.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
         <button
           className="text-white bg-blue-600 text-xl font-medium px-5 py-2 rounded-lg hover:bg-blue-800 cursor-pointer mt-6 ml-3 transition-all duration-300"
           type="button" 

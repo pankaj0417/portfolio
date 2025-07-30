@@ -16,6 +16,6 @@ export const sendEmail = async (to, subject, text) => {
     to,
     subject,
     text,
-    html: `<p>${to}<p/>\n<p>${text}</p>\n<p>${subject}<p/>`,
+    html
   });
 };

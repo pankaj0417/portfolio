@@ -25,10 +25,10 @@ const Project = () => {
   return (
     <div
       id="projects"
-      className="min-h-screen mx-10 md:mx-10 bg-white dark:bg-gray-800 transition-all duration-500 mt-20"
+      className="min-h-screen md:mx-10 bg-white dark:bg-gray-800 transition-all duration-500 mt-20"
     >
       <br />
-      <div className=" justify-center items-center text-center mx-10 md:mx-10  bg-gray-100 dark:bg-gray-900 transition-all duration-500">
+      <div className=" justify-center items-center text-center md:mx-10  bg-gray-100 dark:bg-gray-900 transition-all duration-500">
         <h1 className="font-semibold md:text-5xl text-2xl tracking-wide dark:text-white py-2">
           Projects
         </h1>
