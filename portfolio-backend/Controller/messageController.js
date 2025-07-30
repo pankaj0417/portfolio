@@ -9,6 +9,7 @@ export const sendMessage = async (req, res) => {
     const myemail = process.env.MYEMAIL_SERVICE;
 
     await Message.create({ name, email, msg });
+    
     await sendEmail(
       myemail,
       `New message from ${name}`,

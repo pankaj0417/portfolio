@@ -35,7 +35,7 @@ const Home = () => {
         >
           Hire me
         </button>
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
         <button
           className="text-white bg-blue-600 text-xl font-medium px-5 py-2 rounded-lg hover:bg-blue-800 cursor-pointer mt-6 ml-3 transition-all duration-300"
           type="button" 
