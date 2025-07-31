@@ -65,7 +65,11 @@ const Navbar = () => {
           </li>
           <button
             onClick={toggleTheme}
-            className="text-2xl transition-transform hover:scale-110"
+            className="text-2xl rounded-full p-1.5
+             hover:scale-110 transition-transform duration-200 
+             hover:bg-gray-900 dark:hover:bg-gray-700 
+             flex justify-center items-center text-yellow-500 dark:text-blue-300
+            "
           >
             {theme === "dark" ? <BsSun /> : <BsMoon />}
           </button>
@@ -134,7 +138,11 @@ const Navbar = () => {
             </li>
             <button
               onClick={toggleTheme}
-              className="text-2xl transition-transform hover:scale-110 flex justify-center "
+              className="text-2xl rounded-full p-1.5
+             hover:scale-110 transition-transform duration-200 
+             hover:bg-gray-900 dark:hover:bg-gray-700 
+             flex justify-center items-center text-yellow-500 dark:text-blue-300
+            "
             >
               {theme === "dark" ? <BsSun /> : <BsMoon />}
             </button>
