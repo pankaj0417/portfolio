@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import portfolio from "../../assets/portfolio.png";
-import expense from "../../assets/expense.png";
+import curefinder from "../../assets/curefinder.png";
 import notes from "../../assets/notes.png";
 import auth from "../../assets/Auth.png";
 import { FaReact } from "react-icons/fa";
@@ -44,11 +44,13 @@ const Project = () => {
               <SiExpress />,
             ]}
             logo2={[<FaGithub />, <FaLinkedin />]}
+            github="https://github.com/pankaj0417/portfolio"
+            live="https://pankaj-dev.onrender.com/"
           />
           <ProjectCard
-            image={expense}
-            head="Expense Tracker"
-            main="A comprehensive expense tracker with analytics and charts."
+            image={curefinder}
+            head="Oncox"
+            main="ADR Web Application – A platform for tracking and reporting adverse drug reactions to support safer medication use."
             logo={[
               <FaReact />,
               <SiMongodb />,
@@ -56,7 +58,10 @@ const Project = () => {
               <SiExpress />,
             ]}
             logo2={[<FaGithub />, <FaLinkedin />]}
+            github="https://github.com/pankaj0417/curefindr"
+            live="https://oncox.onrender.com/"
           />
+          
           <ProjectCard
             image={notes}
             head="Notes Application"
@@ -68,6 +73,8 @@ const Project = () => {
               <SiExpress />,
             ]}
             logo2={[<FaGithub />, <FaLinkedin />]}
+            github="https://github.com/pankaj0417/takenotes"
+            live="https://takenote-un7m.onrender.com"
           />
           <ProjectCard
             image={auth}
@@ -80,6 +87,8 @@ const Project = () => {
               <SiExpress />,
             ]}
             logo2={[<FaGithub />, <FaLinkedin />]}
+            github="https://github.com/pankaj0417/assign-hubcredo"
+            live="https://assign-hubcredo.onrender.com"
           />
         </div>
       </div>
